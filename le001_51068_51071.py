@@ -4,9 +4,7 @@ import pyodbc
 
 def run():
 
-    excel = pd.read_excel('C://Users//sean.ma//data_transffer//le001_20240325.xlsx')
-
-
+    excel = pd.read_excel('le001_51068_51071.xlsx')
 
     for row in excel.iterrows():
         # print(row)
